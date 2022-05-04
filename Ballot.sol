@@ -21,7 +21,7 @@ contract Ballot {
     address public chairperson;
 
     // to record the voting start time.
-    uint public startTime = block.timestamp;
+    uint public startTime;
 
     // This declares a state variable that
     // stores a `Voter` struct for each possible address.
